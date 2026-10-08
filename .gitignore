@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# dbt
+dbt_project/logs/
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/.dbt/profiles.yml
+**/profiles.yml
+
+# Docker / logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+# dbt user config
+.user.yml
+dbt_project/.dbt/.user.yml
